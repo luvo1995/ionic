@@ -1,0 +1,13 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>aditem</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-input placeholder="Enter name" name="name" [(ngModel)]="name"></ion-input>
+    <ion-input placeholder="Enter price" name="price" [(ngModel)]="price"></ion-input>
+    <ion-input placeholder="Enter type" name="type" [(ngModel)]="type"></ion-input>
+    
+    <ion-button type="button" (click)="onSubmit()" [disabled]>submit</ion-button>
+</ion-content>
